@@ -5,4 +5,6 @@ target 'Module_15' do
 
   # Pods for Module_15
     pod 'CLTypingLabel'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
 end
