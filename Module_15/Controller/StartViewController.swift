@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class StartViewController: UIViewController {
-
+    @IBOutlet weak var logoLabel: CLTypingLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        logoLabel.text = "⚡️FlashChat"
     }
 
 

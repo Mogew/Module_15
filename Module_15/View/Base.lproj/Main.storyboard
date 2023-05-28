@@ -52,7 +52,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qow-Fe-qeT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qow-Fe-qeT" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="62.5" y="418" width="289" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <color key="textColor" name="BrandBlue"/>
@@ -74,6 +74,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Uxr-ze-mcG"/>
                     <connections>
+                        <outlet property="logoLabel" destination="qow-Fe-qeT" id="RNQ-La-fEc"/>
                         <segue destination="7kQ-r2-amV" kind="show" identifier="startToRegister" id="ODh-DI-YhF"/>
                         <segue destination="VsN-1n-SCv" kind="show" identifier="startToLogIn" id="yE8-V8-1oF"/>
                     </connections>
